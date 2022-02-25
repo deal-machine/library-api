@@ -1,0 +1,25 @@
+{
+    "api": {
+        "version": "v1",
+        "port": 3330
+    },
+    "connection": {
+        "database": "local + postgres"
+    },
+    "postgres": {
+        "database": "database_library",
+        "username": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "port": "5432",
+        "dialect": "postgres"
+    },
+    "container": {
+        "database": "database_library",
+        "username": "docker",
+        "password": "library",
+        "host": "database",
+        "port": "5432",
+        "dialect": "postgres"
+    }
+}
